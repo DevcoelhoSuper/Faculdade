@@ -1,0 +1,29 @@
+Visual 30 ele utiliza frases para mostrar a lógica de uma programação sem a linguagem de programação (Portugol)
+algoritmo "VerificaPar"
+var
+  numero: inteiro
+inicio
+  escreva("Digite um número: ")
+  leia(numero)
+  se numero mod 2 = 0 entao
+    escreva("O número é par.")
+  senao
+    escreva("O número é ímpar.")
+  fimse
+fimalgoritmo
+^
+|
+Feita por ia 
+
+
+Program progDobro;
+Uses crt;
+Var
+Num, dobro: Real;
+Begin
+Writeln(‘Digite um número:’);
+Readln(num);
+Dobro := num * 2;
+Writeln(‘Dobro = ‘, dobro);
+Readkey;
+End.
